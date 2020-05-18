@@ -132,6 +132,11 @@ namespace SortMatrix
 
         private void SortMenuItem_Click(object sender, EventArgs e)
         {
+            if(dgv.Rows.Count == 0)
+            {
+                MessageBox.Show("Матрица пустая!");
+                return;
+            }
             BubbleSort();
         }
     }
