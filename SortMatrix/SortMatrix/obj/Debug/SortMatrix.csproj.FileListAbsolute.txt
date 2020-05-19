@@ -8,10 +8,12 @@ C:\Users\Denvormine\source\repos\SortMatrix\SortMatrix\obj\Debug\SortMatrix.cspr
 C:\Users\Denvormine\source\repos\SortMatrix\SortMatrix\obj\Debug\SortMatrix.csproj.CoreCompileInputs.cache
 C:\Users\Denvormine\source\repos\SortMatrix\SortMatrix\obj\Debug\SortMatrix.exe
 C:\Users\Denvormine\source\repos\SortMatrix\SortMatrix\obj\Debug\SortMatrix.pdb
+C:\Users\Denvormine\source\repos\SortMatrix\SortMatrix\obj\Debug\SortMatrix.InputForm.resources
 C:\Users\Illuminate\Desktop\SortMatrix\SortMatrix\bin\Debug\SortMatrix.exe.config
 C:\Users\Illuminate\Desktop\SortMatrix\SortMatrix\bin\Debug\SortMatrix.exe
 C:\Users\Illuminate\Desktop\SortMatrix\SortMatrix\bin\Debug\SortMatrix.pdb
 C:\Users\Illuminate\Desktop\SortMatrix\SortMatrix\obj\Debug\SortMatrix.csprojAssemblyReference.cache
+C:\Users\Illuminate\Desktop\SortMatrix\SortMatrix\obj\Debug\SortMatrix.InputForm.resources
 C:\Users\Illuminate\Desktop\SortMatrix\SortMatrix\obj\Debug\SortMatrix.MainForm.resources
 C:\Users\Illuminate\Desktop\SortMatrix\SortMatrix\obj\Debug\SortMatrix.Properties.Resources.resources
 C:\Users\Illuminate\Desktop\SortMatrix\SortMatrix\obj\Debug\SortMatrix.csproj.GenerateResource.cache

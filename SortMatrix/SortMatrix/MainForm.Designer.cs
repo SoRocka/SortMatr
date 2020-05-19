@@ -32,6 +32,7 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.sortMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.randomMenuUnit = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -49,7 +50,8 @@
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileOpen,
-            this.sortMenuItem});
+            this.sortMenuItem,
+            this.randomMenuUnit});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(625, 24);
@@ -69,6 +71,13 @@
             this.sortMenuItem.Size = new System.Drawing.Size(102, 20);
             this.sortMenuItem.Text = "Отсортировать";
             this.sortMenuItem.Click += new System.EventHandler(this.SortMenuItem_Click);
+            // 
+            // randomMenuUnit
+            // 
+            this.randomMenuUnit.Name = "randomMenuUnit";
+            this.randomMenuUnit.Size = new System.Drawing.Size(61, 20);
+            this.randomMenuUnit.Text = "Рандом";
+            this.randomMenuUnit.Click += new System.EventHandler(this.РандомToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -94,6 +103,7 @@
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem fileOpen;
         private System.Windows.Forms.ToolStripMenuItem sortMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem randomMenuUnit;
     }
 }
 

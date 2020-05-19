@@ -27,6 +27,8 @@ namespace SortMatrix
             dgv.Rows.Clear();
             int height = matrix.GetLength(0);
             int width = matrix.GetLength(1);
+            rows = height;
+            columns = width;
 
             dgv.ColumnCount = width;
 
@@ -132,12 +134,27 @@ namespace SortMatrix
 
         private void SortMenuItem_Click(object sender, EventArgs e)
         {
-            if(dgv.Rows.Count == 0)
-            {
-                MessageBox.Show("Матрица пустая!");
-                return;
-            }
             BubbleSort();
+        }
+
+        private void РандомToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (InputForm inputForm = new InputForm())
+            {
+                if (inputForm.ShowDialog() == DialogResult.OK)
+                {
+                    Random rnd = new Random();
+                    matrix = new int[inputForm.rows, inputForm.columns];
+                    for (int i = 0; i < inputForm.rows; i++)
+                    {
+                        for (int j = 0; j < inputForm.columns; j++)
+                        {
+                            matrix[i, j] = rnd.Next(inputForm.min, inputForm.max + 1);
+                        }
+                    }
+                    LoadFromMatrixToDgv();
+                }
+            }
         }
     }
 }
